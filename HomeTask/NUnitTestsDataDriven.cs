@@ -4,7 +4,6 @@ using NUnit.Framework;
 namespace HomeTask
 {
     [TestFixture]
-  
     public class NUnitTestsDataDriven
     {
 
@@ -29,10 +28,10 @@ namespace HomeTask
         private Calculator cal;
 
         [TestCase(0, 0, ExpectedResult = 0)]
-        [TestCase(1, 0, ExpectedResult = 1)]
+        [TestCase("1", 0, ExpectedResult = 1)]
         [TestCase(0, 1, ExpectedResult = 1)]
         [TestCase(1, 1, ExpectedResult = 2)]
-        public double Add(double x, double y)
+        public double Add_TC(double x, double y)
         {
             cal= new Calculator();
             return cal.Add(x, y);
@@ -42,7 +41,7 @@ namespace HomeTask
         [TestCase(10,  ExpectedResult = 10)]
         [TestCase(568560,  ExpectedResult = 568560)]
         [TestCase(-891,  ExpectedResult = 891)]
-        public double Abs(double x)
+        public double Abs_TC(double x)
         {
             cal = new Calculator();
             return cal.Abs(x);
@@ -52,7 +51,7 @@ namespace HomeTask
         [TestCase(1, ExpectedResult = 0.54030230586813977d)]
         [TestCase(30, ExpectedResult = 0.15425144988758405d)]
         [TestCase(90, ExpectedResult = -0.44807361612917013d)]
-        public double Cos(double x)
+        public double Cos_TC(double x)
         {
             cal = new Calculator();
             return cal.Cos(x);
@@ -62,7 +61,7 @@ namespace HomeTask
         [TestCase(10, 1, ExpectedResult = 10)]
         [TestCase(500, 2, ExpectedResult = 250)]
         [TestCase(3, 2, ExpectedResult = 1.5)]
-        public double Divide(double x,double y)
+        public double Divide_TC(double x,double y)
         {
             cal = new Calculator();
             return cal.Divide(x,y);
@@ -73,7 +72,7 @@ namespace HomeTask
         [TestCase(10, ExpectedResult = false)]
         [TestCase(568560, ExpectedResult = false)]
         [TestCase(-891, ExpectedResult = true)]
-        public bool isNegative(double x)
+        public bool isNegative_TC(double x)
         {
             cal = new Calculator();
             return cal.isNegative(x);
@@ -83,7 +82,7 @@ namespace HomeTask
         [TestCase(890, ExpectedResult = true)]
         [TestCase(568560, ExpectedResult = true)]
         [TestCase(-891, ExpectedResult = false)]
-        public bool isPositive(double x)
+        public bool isPositive_TC(double x)
         {
             cal = new Calculator();
             return cal.isPositive(x);
@@ -93,7 +92,7 @@ namespace HomeTask
         [TestCase(10, 0, ExpectedResult = 0)]
         [TestCase(3, 2, ExpectedResult = 6)]
         [TestCase(1, 4, ExpectedResult = 4)]
-        public double Multipy(double x,double y)
+        public double Multipy_TC(double x,double y)
         {
             cal = new Calculator();
             return cal.Multiply(x,y);
@@ -103,7 +102,7 @@ namespace HomeTask
         [TestCase(3.5, 3, ExpectedResult = 42.875)]
         [TestCase(202, 4, ExpectedResult = 1664966416)]
         [TestCase(1, 1, ExpectedResult = 1)]
-        public double Power(double x,double y)
+        public double Power_TC(double x,double y)
         {
             cal = new Calculator();
             return cal.Pow(x,y);
@@ -114,7 +113,7 @@ namespace HomeTask
         [TestCase(45, ExpectedResult = 0.85090352453411844d)]
         [TestCase(Double.NaN, ExpectedResult = "NaN")]
         [TestCase(60, ExpectedResult = -0.30481062110221668d)]
-        public double Sin(double x)
+        public double Sin_TC(double x)
         {
             cal = new Calculator();
             return cal.Sin(x);
@@ -124,7 +123,7 @@ namespace HomeTask
         [TestCase(100, ExpectedResult = 10)]
         [TestCase(625, ExpectedResult = 25)]
         [TestCase(144, ExpectedResult = 12)]
-        public double Sqrt(double x)
+        public double Sqrt_TC(double x)
         {
             cal = new Calculator();
             return cal.Sqrt(x);
@@ -134,7 +133,7 @@ namespace HomeTask
         [TestCase(100, 2, ExpectedResult = 98)]
         [TestCase(525,300, ExpectedResult = 225)]
         [TestCase(144,44, ExpectedResult = 100)]
-        public double Sub(double x, double y)
+        public double Sub_TC(double x, double y)
         {
             cal = new Calculator();
             return cal.Sub(x,y);
