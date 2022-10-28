@@ -24,7 +24,7 @@ namespace HomeTask_MSTest
 
         [TestMethod]
         [DataRow(0, 0)]
-        [DataRow(10, 0)]
+        [DataRow(10, 10)]
         [DataRow(1,1)]
         [DataRow(2, 2)]
         public void Abs_TC(double x, double z)
@@ -114,16 +114,16 @@ namespace HomeTask_MSTest
         }
 
         [TestMethod]
-        [DataRow(6,2,36)]
-        [DataRow(3.5, 3, 42.875)]
-        [DataRow(202, 4, 1664966416)]
-        [DataRow(1, 1, 1)]
-        public void Pow_TC(double x, double y, double z)
+        [DataRow(6, 2.0, 36)]
+        [DataRow(3, 3.0, 27)]
+        [DataRow(202, 4.0, 1664966416)]
+        [DataRow(1, 1.0, 1)]
+        public void Pow_TC(object x, object y, double z)
         {
             // Arrange
             Calculator myCalculator = new Calculator();
             // Act
-            double result = myCalculator.Pow(x, y);
+            var result = myCalculator.Pow(x, y);
             // Assert
             Assert.AreEqual(z, result);
         }

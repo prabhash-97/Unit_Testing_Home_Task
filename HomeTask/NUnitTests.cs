@@ -21,138 +21,155 @@ namespace HomeTask
             Console.WriteLine("Pre Condition for test");
         }
 
-        [Test]
-        public void Test1()
-        {
-            Assert.Pass();
-        }
-
         private Calculator cal;
 
         [Test]
         public void Addition_TC()
         {
+            //Arrage
             double arg1 = 10;
             double arg2 = 10;
             double expected = 20;
             cal = new Calculator();
 
             double result = cal.Add(arg1, arg2);
+            //Assert
             Assert.That(result, Is.EqualTo(expected));
         }
 
         [Test]
         public void Abs_TC()
         {
-            double arg1 = 10;
-            double expected = 10;
+            //Arrage
+            var arg1 = 10;
+            var expected = 10;
             cal = new Calculator();
-
-            double result = cal.Abs(arg1);
+            //Act
+            var result = cal.Abs(arg1);
+            //Assert
             Assert.That(result, Is.EqualTo(expected));
         }
 
         [Test]
         public void Cos_TC()
         {
-            double arg1 = 0;
-            double expected = 1.0d;
+            //Arrage
+            var arg1 = 0;
+            var expected = 1.0d;
             cal = new Calculator();
-
-            double result = cal.Cos(arg1);
+            //Act
+            var result = cal.Cos(arg1);
+            //Assert
             Assert.That(result, Is.EqualTo(expected));
         }
 
         [Test]
         public void Divide_TC()
         {
-            double arg1 = 10;
-            double arg2 = 2;
-            double expected = 5;
+            //Arrage
+            var arg1 = 10;
+            var arg2 = 2;
+            var expected = 5;
             cal = new Calculator();
-
-            double result = cal.Divide(arg1, arg2);
+            //Act
+            var result = cal.Divide(arg1, arg2);
+            //Assert
             Assert.That(result, Is.EqualTo(expected));
         }
 
         [Test]
         public void IsNegative_TC()
         {
-            double arg1 = -10;
+            //Arrage
+            var arg1 = -10;
             bool expected = true;
             cal = new Calculator();
-
+            //Act
             bool result = cal.isNegative(arg1);
+            //Assert
             Assert.That(result, Is.EqualTo(expected));
         }
 
         [Test]
         public void IsPositive_TC()
         {
-            double arg1 = 10;
-
+            //Arrage
+            var arg1 = 10;
             bool expected = true;
-            cal = new Calculator();
 
+            cal = new Calculator();
+            //Act
             bool result = cal.isPositive(arg1);
+            //Assert
             Assert.That(result, Is.EqualTo(expected));
         }
 
         [Test]
         public void Multiply_TC()
         {
-            double arg1 = 0;
-            double arg2 = 0;
-            double expected = 0;
+            //Arrage
+            var arg1 = 0;
+            var arg2 = 0;
+            var expected = 0;
             cal = new Calculator();
-
-            double result = cal.Multiply(arg1, arg2);
+            //Act
+            var result = cal.Multiply(arg1, arg2);
+            //Assert
             Assert.That(result, Is.EqualTo(expected));
         }
 
         [Test]
         public void Pow_TC()
         {
-            double arg1 = 6;
-            double arg2 = 2;
-            double expected = 36;
+            //Arrage
+            var arg1 = 6;
+            var arg2 = 2.0;
+            var expected = 36;
             cal = new Calculator();
-
-            double result = cal.Pow(arg1, arg2);
+            //Act
+            var result = cal.Pow(arg1, arg2);
+            //Assert
             Assert.That(result, Is.EqualTo(expected));
+
         }
 
         [Test]
         public void Sin_TC()
         {
-            double arg1 = 0;
-            double expected = 0;
+            //Arrage
+            var arg1 = 0;
+            var expected = 0;
             cal = new Calculator();
-
-            double result = cal.Sin(arg1);
+            //Act
+            var result = cal.Sin(arg1);
+            //Assert
             Assert.That(result, Is.EqualTo(expected));
         }
 
         [Test]
         public void Sqrt_TC()
         {
-            double arg1 = 100;
-            double expected = 10;
+            //Arrage
+            var arg1 = 100;
+            var expected = 10;
             cal = new Calculator();
-
-            double result = cal.Sqrt(arg1);
+            //Act
+            var result = cal.Sqrt(arg1);
+            //Assert
             Assert.That(result, Is.EqualTo(expected));
         }
 
         [Test]
         public void Sub_TC()
         {
-            double arg1 = 10;
-            double arg2 = 2;
-            double expected = 8;
+            //Arrage
+            var arg1 = 10;
+            var arg2 = 2;
+            var expected = 8;
             cal = new Calculator();
-
-            double result = cal.Sub(arg1, arg2);
+            //Act
+            var result = cal.Sub(arg1, arg2);
+            //Assert
             Assert.That(result, Is.EqualTo(expected));
         }
 

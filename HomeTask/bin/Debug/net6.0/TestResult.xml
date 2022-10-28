@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="56" result="Passed" total="56" passed="56" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="55" engine-version="3.15.2.0" clr-version="4.0.30319.42000" start-time="2022-10-28 10:53:57Z" end-time="2022-10-28 10:53:58Z" duration="0.440057">
+  <command-line><![CDATA["C:\Users\UPRABKA\.nuget\packages\nunit.consolerunner\3.15.2\tools\nunit3-console.exe"  HomeTask-NUnit.dll]]></command-line>
+  <test-suite type="Assembly" id="1-1069" name="HomeTask-NUnit.dll" fullname="C:/Users/UPRABKA/Documents/C# traning/UnitTesting/HomeTask/HomeTask/HomeTask/bin/Debug/net6.0/HomeTask-NUnit.dll" runstate="Runnable" testcasecount="56" result="Passed" start-time="2022-10-28T10:53:58.3678413Z" end-time="2022-10-28T10:53:58.4155201Z" duration="0.047646" total="56" passed="56" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="55">
+    <environment framework-version="3.13.3.0" clr-version="6.0.8" os-version="Microsoft Windows 10.0.19044" platform="Win32NT" cwd="C:\Users\UPRABKA\Documents\C# traning\UnitTesting\HomeTask\HomeTask\HomeTask\bin\Debug\net6.0" machine-name="JBW8LL3" user="UPRABKA" user-domain="PEROOT" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\UPRABKA\Documents\C# traning\UnitTesting\HomeTask\HomeTask\HomeTask\bin\Debug\net6.0" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETCoreApp,Version=v6.0" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="TargetRuntimeFramework" value="netcore-6.0" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="LevelOfParallelism" value="2" />
+      <property name="_PID" value="14840" />
+      <property name="_APPDOMAIN" value="nunit-agent" />
+    </properties>
+    <test-suite type="TestSuite" id="1-1070" name="HomeTask" fullname="HomeTask" runstate="Runnable" testcasecount="56" result="Passed" start-time="2022-10-28T10:53:58.3704260Z" end-time="2022-10-28T10:53:58.4155159Z" duration="0.045090" total="56" passed="56" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="55">
+      <test-suite type="TestFixture" id="1-1012" name="NUnitTestsDataDriven" fullname="HomeTask.NUnitTestsDataDriven" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" testcasecount="45" result="Passed" start-time="2022-10-28T10:53:58.3711987Z" end-time="2022-10-28T10:53:58.4113874Z" duration="0.040189" total="45" passed="45" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="44">
+        <test-suite type="ParameterizedMethod" id="1-1023" name="Abs_TC" fullname="HomeTask.NUnitTestsDataDriven.Abs_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" testcasecount="4" result="Passed" start-time="2022-10-28T10:53:58.3722012Z" end-time="2022-10-28T10:53:58.3808993Z" duration="0.008698" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <test-case id="1-1019" name="Abs_TC(0)" fullname="HomeTask.NUnitTestsDataDriven.Abs_TC(0)" methodname="Abs_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="851418903" result="Passed" start-time="2022-10-28T10:53:58.3723246Z" end-time="2022-10-28T10:53:58.3793669Z" duration="0.007085" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1020" name="Abs_TC(10)" fullname="HomeTask.NUnitTestsDataDriven.Abs_TC(10)" methodname="Abs_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="852703649" result="Passed" start-time="2022-10-28T10:53:58.3802788Z" end-time="2022-10-28T10:53:58.3803327Z" duration="0.000054" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1021" name="Abs_TC(568560)" fullname="HomeTask.NUnitTestsDataDriven.Abs_TC(568560)" methodname="Abs_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="145052758" result="Passed" start-time="2022-10-28T10:53:58.3803423Z" end-time="2022-10-28T10:53:58.3803528Z" duration="0.000010" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1022" name="Abs_TC(-891)" fullname="HomeTask.NUnitTestsDataDriven.Abs_TC(-891)" methodname="Abs_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="411380166" result="Passed" start-time="2022-10-28T10:53:58.3803585Z" end-time="2022-10-28T10:53:58.3803658Z" duration="0.000007" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="1-1018" name="Add_TC" fullname="HomeTask.NUnitTestsDataDriven.Add_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" testcasecount="4" result="Passed" start-time="2022-10-28T10:53:58.3811777Z" end-time="2022-10-28T10:53:58.3813585Z" duration="0.000181" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <test-case id="1-1014" name="Add_TC(0,0)" fullname="HomeTask.NUnitTestsDataDriven.Add_TC(0,0)" methodname="Add_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="174143973" result="Passed" start-time="2022-10-28T10:53:58.3811906Z" end-time="2022-10-28T10:53:58.3812989Z" duration="0.000108" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1015" name="Add_TC(&quot;1&quot;,0)" fullname="HomeTask.NUnitTestsDataDriven.Add_TC(&quot;1&quot;,0)" methodname="Add_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="685851959" result="Passed" start-time="2022-10-28T10:53:58.3813056Z" end-time="2022-10-28T10:53:58.3813191Z" duration="0.000014" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1016" name="Add_TC(0,1)" fullname="HomeTask.NUnitTestsDataDriven.Add_TC(0,1)" methodname="Add_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="1686937521" result="Passed" start-time="2022-10-28T10:53:58.3813222Z" end-time="2022-10-28T10:53:58.3813299Z" duration="0.000008" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1017" name="Add_TC(1,1)" fullname="HomeTask.NUnitTestsDataDriven.Add_TC(1,1)" methodname="Add_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="267839576" result="Passed" start-time="2022-10-28T10:53:58.3813358Z" end-time="2022-10-28T10:53:58.3813433Z" duration="0.000008" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="1-1028" name="Cos_TC" fullname="HomeTask.NUnitTestsDataDriven.Cos_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" testcasecount="4" result="Passed" start-time="2022-10-28T10:53:58.3813665Z" end-time="2022-10-28T10:53:58.3815421Z" duration="0.000176" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <test-case id="1-1024" name="Cos_TC(0)" fullname="HomeTask.NUnitTestsDataDriven.Cos_TC(0)" methodname="Cos_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="902382111" result="Passed" start-time="2022-10-28T10:53:58.3813725Z" end-time="2022-10-28T10:53:58.3814884Z" duration="0.000116" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1025" name="Cos_TC(1)" fullname="HomeTask.NUnitTestsDataDriven.Cos_TC(1)" methodname="Cos_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="1122214041" result="Passed" start-time="2022-10-28T10:53:58.3814936Z" end-time="2022-10-28T10:53:58.3815142Z" duration="0.000021" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1026" name="Cos_TC(30)" fullname="HomeTask.NUnitTestsDataDriven.Cos_TC(30)" methodname="Cos_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="1991686722" result="Passed" start-time="2022-10-28T10:53:58.3815173Z" end-time="2022-10-28T10:53:58.3815270Z" duration="0.000010" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1027" name="Cos_TC(90)" fullname="HomeTask.NUnitTestsDataDriven.Cos_TC(90)" methodname="Cos_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="1976678666" result="Passed" start-time="2022-10-28T10:53:58.3815299Z" end-time="2022-10-28T10:53:58.3815375Z" duration="0.000008" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="1-1033" name="Divide_TC" fullname="HomeTask.NUnitTestsDataDriven.Divide_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" testcasecount="4" result="Passed" start-time="2022-10-28T10:53:58.3815494Z" end-time="2022-10-28T10:53:58.3816850Z" duration="0.000136" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <test-case id="1-1029" name="Divide_TC(10,5)" fullname="HomeTask.NUnitTestsDataDriven.Divide_TC(10,5)" methodname="Divide_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="1104942430" result="Passed" start-time="2022-10-28T10:53:58.3815556Z" end-time="2022-10-28T10:53:58.3816303Z" duration="0.000075" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1030" name="Divide_TC(10,1)" fullname="HomeTask.NUnitTestsDataDriven.Divide_TC(10,1)" methodname="Divide_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="1343454663" result="Passed" start-time="2022-10-28T10:53:58.3816354Z" end-time="2022-10-28T10:53:58.3816482Z" duration="0.000013" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1031" name="Divide_TC(500,2)" fullname="HomeTask.NUnitTestsDataDriven.Divide_TC(500,2)" methodname="Divide_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="2095075170" result="Passed" start-time="2022-10-28T10:53:58.3816577Z" end-time="2022-10-28T10:53:58.3816699Z" duration="0.000012" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1032" name="Divide_TC(3,2)" fullname="HomeTask.NUnitTestsDataDriven.Divide_TC(3,2)" methodname="Divide_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="545051969" result="Passed" start-time="2022-10-28T10:53:58.3816734Z" end-time="2022-10-28T10:53:58.3816809Z" duration="0.000008" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="1-1038" name="isNegative_TC" fullname="HomeTask.NUnitTestsDataDriven.isNegative_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" testcasecount="4" result="Passed" start-time="2022-10-28T10:53:58.3816896Z" end-time="2022-10-28T10:53:58.3835328Z" duration="0.001843" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <test-case id="1-1034" name="isNegative_TC(-10)" fullname="HomeTask.NUnitTestsDataDriven.isNegative_TC(-10)" methodname="isNegative_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="354224835" result="Passed" start-time="2022-10-28T10:53:58.3817043Z" end-time="2022-10-28T10:53:58.3834220Z" duration="0.001718" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1035" name="isNegative_TC(10)" fullname="HomeTask.NUnitTestsDataDriven.isNegative_TC(10)" methodname="isNegative_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="1362049472" result="Passed" start-time="2022-10-28T10:53:58.3834349Z" end-time="2022-10-28T10:53:58.3834945Z" duration="0.000060" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1036" name="isNegative_TC(568560)" fullname="HomeTask.NUnitTestsDataDriven.isNegative_TC(568560)" methodname="isNegative_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="2144891781" result="Passed" start-time="2022-10-28T10:53:58.3834989Z" end-time="2022-10-28T10:53:58.3835117Z" duration="0.000013" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1037" name="isNegative_TC(-891)" fullname="HomeTask.NUnitTestsDataDriven.isNegative_TC(-891)" methodname="isNegative_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="1211956942" result="Passed" start-time="2022-10-28T10:53:58.3835148Z" end-time="2022-10-28T10:53:58.3835278Z" duration="0.000013" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="1-1043" name="isPositive_TC" fullname="HomeTask.NUnitTestsDataDriven.isPositive_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" testcasecount="4" result="Passed" start-time="2022-10-28T10:53:58.3835383Z" end-time="2022-10-28T10:53:58.3837554Z" duration="0.000217" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <test-case id="1-1039" name="isPositive_TC(10)" fullname="HomeTask.NUnitTestsDataDriven.isPositive_TC(10)" methodname="isPositive_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="1796847667" result="Passed" start-time="2022-10-28T10:53:58.3835456Z" end-time="2022-10-28T10:53:58.3836959Z" duration="0.000150" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1040" name="isPositive_TC(890)" fullname="HomeTask.NUnitTestsDataDriven.isPositive_TC(890)" methodname="isPositive_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="886006183" result="Passed" start-time="2022-10-28T10:53:58.3837022Z" end-time="2022-10-28T10:53:58.3837218Z" duration="0.000020" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1041" name="isPositive_TC(568560)" fullname="HomeTask.NUnitTestsDataDriven.isPositive_TC(568560)" methodname="isPositive_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="412282222" result="Passed" start-time="2022-10-28T10:53:58.3837254Z" end-time="2022-10-28T10:53:58.3837354Z" duration="0.000010" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1042" name="isPositive_TC(-891)" fullname="HomeTask.NUnitTestsDataDriven.isPositive_TC(-891)" methodname="isPositive_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="142553571" result="Passed" start-time="2022-10-28T10:53:58.3837384Z" end-time="2022-10-28T10:53:58.3837511Z" duration="0.000013" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="1-1048" name="Multipy_TC" fullname="HomeTask.NUnitTestsDataDriven.Multipy_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" testcasecount="4" result="Passed" start-time="2022-10-28T10:53:58.3837602Z" end-time="2022-10-28T10:53:58.3838917Z" duration="0.000132" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <test-case id="1-1044" name="Multipy_TC(0,0)" fullname="HomeTask.NUnitTestsDataDriven.Multipy_TC(0,0)" methodname="Multipy_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="1317985854" result="Passed" start-time="2022-10-28T10:53:58.3837657Z" end-time="2022-10-28T10:53:58.3838452Z" duration="0.000080" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1045" name="Multipy_TC(10,0)" fullname="HomeTask.NUnitTestsDataDriven.Multipy_TC(10,0)" methodname="Multipy_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="726727133" result="Passed" start-time="2022-10-28T10:53:58.3838503Z" end-time="2022-10-28T10:53:58.3838645Z" duration="0.000014" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1046" name="Multipy_TC(3,2)" fullname="HomeTask.NUnitTestsDataDriven.Multipy_TC(3,2)" methodname="Multipy_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="2101545491" result="Passed" start-time="2022-10-28T10:53:58.3838677Z" end-time="2022-10-28T10:53:58.3838751Z" duration="0.000007" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1047" name="Multipy_TC(1,4)" fullname="HomeTask.NUnitTestsDataDriven.Multipy_TC(1,4)" methodname="Multipy_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="1948194076" result="Passed" start-time="2022-10-28T10:53:58.3838778Z" end-time="2022-10-28T10:53:58.3838877Z" duration="0.000010" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="1-1053" name="Power_TC" fullname="HomeTask.NUnitTestsDataDriven.Power_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" testcasecount="4" result="Passed" start-time="2022-10-28T10:53:58.3838957Z" end-time="2022-10-28T10:53:58.3840755Z" duration="0.000180" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <test-case id="1-1049" name="Power_TC(6,2.0d)" fullname="HomeTask.NUnitTestsDataDriven.Power_TC(6,2.0d)" methodname="Power_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="408745800" result="Passed" start-time="2022-10-28T10:53:58.3839012Z" end-time="2022-10-28T10:53:58.3840250Z" duration="0.000124" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1050" name="Power_TC(3,3.0d)" fullname="HomeTask.NUnitTestsDataDriven.Power_TC(3,3.0d)" methodname="Power_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="50690545" result="Passed" start-time="2022-10-28T10:53:58.3840307Z" end-time="2022-10-28T10:53:58.3840505Z" duration="0.000020" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1051" name="Power_TC(202,4.0d)" fullname="HomeTask.NUnitTestsDataDriven.Power_TC(202,4.0d)" methodname="Power_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="794757334" result="Passed" start-time="2022-10-28T10:53:58.3840536Z" end-time="2022-10-28T10:53:58.3840613Z" duration="0.000008" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1052" name="Power_TC(1,1.0d)" fullname="HomeTask.NUnitTestsDataDriven.Power_TC(1,1.0d)" methodname="Power_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="1711484946" result="Passed" start-time="2022-10-28T10:53:58.3840640Z" end-time="2022-10-28T10:53:58.3840714Z" duration="0.000007" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="1-1058" name="Sin_TC" fullname="HomeTask.NUnitTestsDataDriven.Sin_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" testcasecount="4" result="Passed" start-time="2022-10-28T10:53:58.3840855Z" end-time="2022-10-28T10:53:58.3842982Z" duration="0.000213" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <test-case id="1-1054" name="Sin_TC(90)" fullname="HomeTask.NUnitTestsDataDriven.Sin_TC(90)" methodname="Sin_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="210459905" result="Passed" start-time="2022-10-28T10:53:58.3840911Z" end-time="2022-10-28T10:53:58.3842287Z" duration="0.000138" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1055" name="Sin_TC(45)" fullname="HomeTask.NUnitTestsDataDriven.Sin_TC(45)" methodname="Sin_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="969332182" result="Passed" start-time="2022-10-28T10:53:58.3842336Z" end-time="2022-10-28T10:53:58.3842493Z" duration="0.000016" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1056" name="Sin_TC(double.NaN)" fullname="HomeTask.NUnitTestsDataDriven.Sin_TC(double.NaN)" methodname="Sin_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="503758383" result="Passed" start-time="2022-10-28T10:53:58.3842543Z" end-time="2022-10-28T10:53:58.3842804Z" duration="0.000026" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1057" name="Sin_TC(60)" fullname="HomeTask.NUnitTestsDataDriven.Sin_TC(60)" methodname="Sin_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="1571932338" result="Passed" start-time="2022-10-28T10:53:58.3842832Z" end-time="2022-10-28T10:53:58.3842908Z" duration="0.000008" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="1-1063" name="Sqrt_TC" fullname="HomeTask.NUnitTestsDataDriven.Sqrt_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" testcasecount="4" result="Passed" start-time="2022-10-28T10:53:58.3843051Z" end-time="2022-10-28T10:53:58.3844979Z" duration="0.000193" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <test-case id="1-1059" name="Sqrt_TC(0)" fullname="HomeTask.NUnitTestsDataDriven.Sqrt_TC(0)" methodname="Sqrt_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="301812688" result="Passed" start-time="2022-10-28T10:53:58.3843098Z" end-time="2022-10-28T10:53:58.3844340Z" duration="0.000124" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1060" name="Sqrt_TC(100)" fullname="HomeTask.NUnitTestsDataDriven.Sqrt_TC(100)" methodname="Sqrt_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="2119677551" result="Passed" start-time="2022-10-28T10:53:58.3844386Z" end-time="2022-10-28T10:53:58.3844537Z" duration="0.000015" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1061" name="Sqrt_TC(625)" fullname="HomeTask.NUnitTestsDataDriven.Sqrt_TC(625)" methodname="Sqrt_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="1944208399" result="Passed" start-time="2022-10-28T10:53:58.3844566Z" end-time="2022-10-28T10:53:58.3844819Z" duration="0.000025" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1062" name="Sqrt_TC(144)" fullname="HomeTask.NUnitTestsDataDriven.Sqrt_TC(144)" methodname="Sqrt_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="1156726781" result="Passed" start-time="2022-10-28T10:53:58.3844846Z" end-time="2022-10-28T10:53:58.3844915Z" duration="0.000007" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="1-1068" name="Sub_TC" fullname="HomeTask.NUnitTestsDataDriven.Sub_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" testcasecount="4" result="Passed" start-time="2022-10-28T10:53:58.3845018Z" end-time="2022-10-28T10:53:58.3847276Z" duration="0.000226" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <test-case id="1-1064" name="Sub_TC(10,2)" fullname="HomeTask.NUnitTestsDataDriven.Sub_TC(10,2)" methodname="Sub_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="390280573" result="Passed" start-time="2022-10-28T10:53:58.3845136Z" end-time="2022-10-28T10:53:58.3846605Z" duration="0.000147" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1065" name="Sub_TC(100,2)" fullname="HomeTask.NUnitTestsDataDriven.Sub_TC(100,2)" methodname="Sub_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="1734324578" result="Passed" start-time="2022-10-28T10:53:58.3846660Z" end-time="2022-10-28T10:53:58.3846948Z" duration="0.000029" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1066" name="Sub_TC(525,300)" fullname="HomeTask.NUnitTestsDataDriven.Sub_TC(525,300)" methodname="Sub_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="968107615" result="Passed" start-time="2022-10-28T10:53:58.3846977Z" end-time="2022-10-28T10:53:58.3847135Z" duration="0.000016" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+          <test-case id="1-1067" name="Sub_TC(144,44)" fullname="HomeTask.NUnitTestsDataDriven.Sub_TC(144,44)" methodname="Sub_TC" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="1938006910" result="Passed" start-time="2022-10-28T10:53:58.3847162Z" end-time="2022-10-28T10:53:58.3847230Z" duration="0.000007" asserts="1">
+            <output><![CDATA[Pre Condition for test
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-case id="1-1013" name="Test1" fullname="HomeTask.NUnitTestsDataDriven.Test1" methodname="Test1" classname="HomeTask.NUnitTestsDataDriven" runstate="Runnable" seed="1359955364" result="Passed" start-time="2022-10-28T10:53:58.3847522Z" end-time="2022-10-28T10:53:58.4112941Z" duration="0.026543" asserts="0">
+          <output><![CDATA[Pre Condition for test
+]]></output>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1-1000" name="NUnitTests" fullname="HomeTask.NUnitTests" classname="HomeTask.NUnitTests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2022-10-28T10:53:58.4129223Z" end-time="2022-10-28T10:53:58.4155090Z" duration="0.002586" total="11" passed="11" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="11">
+        <properties>
+          <property name="ParallelScope" value="All" />
+        </properties>
+        <test-case id="1-1002" name="Abs_TC" fullname="HomeTask.NUnitTests.Abs_TC" methodname="Abs_TC" classname="HomeTask.NUnitTests" runstate="Runnable" seed="353312081" result="Passed" start-time="2022-10-28T10:53:58.4132776Z" end-time="2022-10-28T10:53:58.4140061Z" duration="0.000728" asserts="1">
+          <output><![CDATA[Pre Condition for test
+Post Condition for test
+]]></output>
+        </test-case>
+        <test-case id="1-1001" name="Addition_TC" fullname="HomeTask.NUnitTests.Addition_TC" methodname="Addition_TC" classname="HomeTask.NUnitTests" runstate="Runnable" seed="775582828" result="Passed" start-time="2022-10-28T10:53:58.4132775Z" end-time="2022-10-28T10:53:58.4140042Z" duration="0.000727" asserts="1">
+          <output><![CDATA[Pre Condition for test
+Post Condition for test
+]]></output>
+        </test-case>
+        <test-case id="1-1004" name="Divide_TC" fullname="HomeTask.NUnitTests.Divide_TC" methodname="Divide_TC" classname="HomeTask.NUnitTests" runstate="Runnable" seed="1019969436" result="Passed" start-time="2022-10-28T10:53:58.4140210Z" end-time="2022-10-28T10:53:58.4141774Z" duration="0.000157" asserts="1">
+          <output><![CDATA[Pre Condition for test
+Post Condition for test
+]]></output>
+        </test-case>
+        <test-case id="1-1003" name="Cos_TC" fullname="HomeTask.NUnitTests.Cos_TC" methodname="Cos_TC" classname="HomeTask.NUnitTests" runstate="Runnable" seed="1312989521" result="Passed" start-time="2022-10-28T10:53:58.4140187Z" end-time="2022-10-28T10:53:58.4141777Z" duration="0.000159" asserts="1">
+          <output><![CDATA[Pre Condition for test
+Post Condition for test
+]]></output>
+        </test-case>
+        <test-case id="1-1005" name="IsNegative_TC" fullname="HomeTask.NUnitTests.IsNegative_TC" methodname="IsNegative_TC" classname="HomeTask.NUnitTests" runstate="Runnable" seed="1005674250" result="Passed" start-time="2022-10-28T10:53:58.4141833Z" end-time="2022-10-28T10:53:58.4149411Z" duration="0.000759" asserts="1">
+          <output><![CDATA[Pre Condition for test
+Post Condition for test
+]]></output>
+        </test-case>
+        <test-case id="1-1006" name="IsPositive_TC" fullname="HomeTask.NUnitTests.IsPositive_TC" methodname="IsPositive_TC" classname="HomeTask.NUnitTests" runstate="Runnable" seed="1265790457" result="Passed" start-time="2022-10-28T10:53:58.4141850Z" end-time="2022-10-28T10:53:58.4149411Z" duration="0.000757" asserts="1">
+          <output><![CDATA[Pre Condition for test
+Post Condition for test
+]]></output>
+        </test-case>
+        <test-case id="1-1008" name="Pow_TC" fullname="HomeTask.NUnitTests.Pow_TC" methodname="Pow_TC" classname="HomeTask.NUnitTests" runstate="Runnable" seed="1123221432" result="Passed" start-time="2022-10-28T10:53:58.4149607Z" end-time="2022-10-28T10:53:58.4151562Z" duration="0.000196" asserts="1">
+          <output><![CDATA[Pre Condition for test
+Post Condition for test
+]]></output>
+        </test-case>
+        <test-case id="1-1007" name="Multiply_TC" fullname="HomeTask.NUnitTests.Multiply_TC" methodname="Multiply_TC" classname="HomeTask.NUnitTests" runstate="Runnable" seed="827921581" result="Passed" start-time="2022-10-28T10:53:58.4149597Z" end-time="2022-10-28T10:53:58.4151553Z" duration="0.000196" asserts="1">
+          <output><![CDATA[Pre Condition for test
+Post Condition for test
+]]></output>
+        </test-case>
+        <test-case id="1-1009" name="Sin_TC" fullname="HomeTask.NUnitTests.Sin_TC" methodname="Sin_TC" classname="HomeTask.NUnitTests" runstate="Runnable" seed="1500625405" result="Passed" start-time="2022-10-28T10:53:58.4151621Z" end-time="2022-10-28T10:53:58.4153321Z" duration="0.000170" asserts="1">
+          <output><![CDATA[Pre Condition for test
+Post Condition for test
+]]></output>
+        </test-case>
+        <test-case id="1-1010" name="Sqrt_TC" fullname="HomeTask.NUnitTests.Sqrt_TC" methodname="Sqrt_TC" classname="HomeTask.NUnitTests" runstate="Runnable" seed="2145857934" result="Passed" start-time="2022-10-28T10:53:58.4151638Z" end-time="2022-10-28T10:53:58.4153440Z" duration="0.000180" asserts="1">
+          <output><![CDATA[Pre Condition for test
+Post Condition for test
+]]></output>
+        </test-case>
+        <test-case id="1-1011" name="Sub_TC" fullname="HomeTask.NUnitTests.Sub_TC" methodname="Sub_TC" classname="HomeTask.NUnitTests" runstate="Runnable" seed="23335535" result="Passed" start-time="2022-10-28T10:53:58.4153416Z" end-time="2022-10-28T10:53:58.4154683Z" duration="0.000127" asserts="1">
+          <output><![CDATA[Pre Condition for test
+Post Condition for test
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

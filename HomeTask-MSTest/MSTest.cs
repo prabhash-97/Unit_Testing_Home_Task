@@ -19,11 +19,6 @@ namespace HomeTask_MSTest
             Console.WriteLine("Pre Condition for test");
         }*/
 
-        [TestMethod]
-        public void TestMethod1()
-        {
-        }
-
         private Calculator cal;
 
         [TestMethod]
@@ -41,34 +36,34 @@ namespace HomeTask_MSTest
         [TestMethod]
         public void Abs_TC()
         {
-            double arg1 = 10;
-            double expected = 10;
+            var arg1 = 10;
+            var expected = 10;
             cal = new Calculator();
 
-            double result = cal.Abs(arg1);
+            var result = cal.Abs(arg1);
             Assert.AreEqual(expected, result);
         }
 
         [TestMethod]
         public void Cos_TC()
         {
-            double arg1 = 0;
-            double expected = 1.0d;
+            var arg1 = 0;
+            var expected = 1.0d;
             cal = new Calculator();
 
-            double result = cal.Cos(arg1);
+            var result = cal.Cos(arg1);
             Assert.AreEqual(expected, result);
         }
 
         [TestMethod]
         public void Divide_TC()
         {
-            double arg1 = 10;
-            double arg2 = 2;
-            double expected = 5;
+            var arg1 = 10;
+            var arg2 = 2;
+            var expected = 5;
             cal = new Calculator();
 
-            double result = cal.Divide(arg1, arg2);
+            var result = cal.Divide(arg1, arg2);
             Assert.AreEqual(expected, result);
         }
 
@@ -86,9 +81,9 @@ namespace HomeTask_MSTest
         [TestMethod]
         public void IsPositive_TC()
         {
-            double arg1 = 10;
-
+            var arg1 = 10;
             bool expected = true;
+
             cal = new Calculator();
 
             bool result = cal.isPositive(arg1);
@@ -98,58 +93,58 @@ namespace HomeTask_MSTest
         [TestMethod]
         public void Multiply_TC()
         {
-            double arg1 = 0;
-            double arg2 = 0;
-            double expected = 0;
+            var arg1 = 0;
+            var arg2 = 0;
+            var expected = 0;
             cal = new Calculator();
 
-            double result = cal.Multiply(arg1, arg2);
+            var result = cal.Multiply(arg1, arg2);
             Assert.AreEqual(expected, result);
         }
 
         [TestMethod]
         public void Pow_TC()
         {
-            double arg1 = 0;
-            double arg2 = 0;
-            double expected = 0;
+            var arg1 = 6;
+            var arg2 = 2.0;
+            var expected = 36;
             cal = new Calculator();
 
-            double result = cal.Pow(arg1, arg2);
+            var result = cal.Pow(arg1, arg2);
             Assert.AreEqual(expected, result);
         }
 
         [TestMethod]
         public void Sin_TC()
         {
-            double arg1 = 0;
-            double expected = 0;
+            var arg1 = 0;
+            var expected = 0;
             cal = new Calculator();
 
-            double result = cal.Sin(arg1);
+            var result = cal.Sin(arg1);
             Assert.AreEqual(expected, result);
         }
 
         [TestMethod]
         public void Sqrt_TC()
         {
-            double arg1 = 100;
-            double expected = 10;
+            var arg1 = 100;
+            var expected = 10;
             cal = new Calculator();
 
-            double result = cal.Sqrt(arg1);
+            var result = cal.Sqrt(arg1);
             Assert.AreEqual(expected, result);
         }
 
         [TestMethod]
         public void Sub_TC()
         {
-            double arg1 = 10;
-            double arg2 = 2;
-            double expected = 8;
+            var arg1 = 10;
+            var arg2 = 2;
+            var expected = 8;
             cal = new Calculator();
 
-            double result = cal.Sub(arg1, arg2);
+            var result = cal.Sub(arg1, arg2);
             Assert.AreEqual(expected, result);
         }
 

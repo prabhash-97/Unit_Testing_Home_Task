@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jabU/ZLY+gzx8IqYgPtvIs1sdL2nuioHqzubtC+HQb+SyFZjN7M1D8U/zPiBUkHpGukI69XqxpnlsR7UYBZ3Jg==",
+  "dgSpecHash": "dnGzCpy7DFsZQPadhe7O7Pu1AAMt6qaV92O5qwyCOUX8ENs10KwDcgOq2e6BzX4pv2/u3wq+7ZYnLFbhqXtr1w==",
   "success": true,
   "projectFilePath": "C:\\Users\\UPRABKA\\Documents\\C# traning\\UnitTesting\\HomeTask\\HomeTask\\HomeTask\\HomeTask-NUnit.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\UPRABKA\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
     "C:\\Users\\UPRABKA\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
     "C:\\Users\\UPRABKA\\.nuget\\packages\\nunit.analyzers\\3.3.0\\nunit.analyzers.3.3.0.nupkg.sha512",
+    "C:\\Users\\UPRABKA\\.nuget\\packages\\nunit.consolerunner\\3.15.2\\nunit.consolerunner.3.15.2.nupkg.sha512",
     "C:\\Users\\UPRABKA\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512",
     "C:\\Users\\UPRABKA\\.nuget\\packages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",
     "C:\\Users\\UPRABKA\\.nuget\\packages\\system.diagnostics.debug\\4.0.11\\system.diagnostics.debug.4.0.11.nupkg.sha512",

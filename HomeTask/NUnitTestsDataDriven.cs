@@ -98,11 +98,11 @@ namespace HomeTask
             return cal.Multiply(x,y);
         }
 
-        [TestCase(6, 2, ExpectedResult = 36)]
-        [TestCase(3.5, 3, ExpectedResult = 42.875)]
-        [TestCase(202, 4, ExpectedResult = 1664966416)]
-        [TestCase(1, 1, ExpectedResult = 1)]
-        public double Power_TC(double x,double y)
+        [TestCase(6, 2.0, ExpectedResult = 36)]
+        [TestCase(3, 3.0, ExpectedResult = 27)]
+        [TestCase(202, 4.0, ExpectedResult = 1664966416)]
+        [TestCase(1, 1.0, ExpectedResult = 1)]
+        public double Power_TC(object x,object y)
         {
             cal = new Calculator();
             return cal.Pow(x,y);
