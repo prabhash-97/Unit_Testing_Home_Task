@@ -6341,11 +6341,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\UPRABKA\\Documents\\C# traning\\UnitTesting\\HomeTask\\HomeTask\\HomeTask-MSTest\\HomeTask-MSTest.csproj",
+      "projectUniqueName": "C:\\Users\\UPRABKA\\Documents\\C# traning\\4 - UnitTesting\\HomeTask\\HomeTask\\HomeTask-MSTest\\HomeTask-MSTest.csproj",
       "projectName": "HomeTask-MSTest",
-      "projectPath": "C:\\Users\\UPRABKA\\Documents\\C# traning\\UnitTesting\\HomeTask\\HomeTask\\HomeTask-MSTest\\HomeTask-MSTest.csproj",
+      "projectPath": "C:\\Users\\UPRABKA\\Documents\\C# traning\\4 - UnitTesting\\HomeTask\\HomeTask\\HomeTask-MSTest\\HomeTask-MSTest.csproj",
       "packagesPath": "C:\\Users\\UPRABKA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\UPRABKA\\Documents\\C# traning\\UnitTesting\\HomeTask\\HomeTask\\HomeTask-MSTest\\obj\\",
+      "outputPath": "C:\\Users\\UPRABKA\\Documents\\C# traning\\4 - UnitTesting\\HomeTask\\HomeTask\\HomeTask-MSTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\UPRABKA\\AppData\\Roaming\\NuGet\\NuGet.Config",

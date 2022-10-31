@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dnGzCpy7DFsZQPadhe7O7Pu1AAMt6qaV92O5qwyCOUX8ENs10KwDcgOq2e6BzX4pv2/u3wq+7ZYnLFbhqXtr1w==",
+  "dgSpecHash": "rrRstuEx7XdBOeLsNK1/oAgD6ozQvFpzCshEe+9P5AjyAbi7UzVcZ9v7p6kCFSDTFrX+rM/Ham/9w5ujzvU5JA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\UPRABKA\\Documents\\C# traning\\UnitTesting\\HomeTask\\HomeTask\\HomeTask\\HomeTask-NUnit.csproj",
+  "projectFilePath": "C:\\Users\\UPRABKA\\Documents\\C# traning\\4 - UnitTesting\\HomeTask\\HomeTask\\HomeTask\\HomeTask-NUnit.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\UPRABKA\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\UPRABKA\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestSettings name="local" id="953cfca7-2c66-4909-bc08-b8ce43651474" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+	<Description>
+		Theses are default test settings for a local test run.
+	</Description>
+	<Deployment enabled="false"/>
+	<Execution parallelTestCount="2">
+		<TestTypeSpecific/>
+		<AgentRule name="Execution Agents"></AgentRule>
+	</Execution>
+</TestSettings>
