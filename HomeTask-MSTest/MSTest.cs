@@ -7,17 +7,17 @@ namespace HomeTask_MSTest
     public class MSTest
     {
 
-        /*[ClassInitialize]
-        public static void ClassInit()
+        [ClassInitialize]
+        public static void ClassInit(TestContext context)
         {
-            Console.WriteLine("Pre Condition for test class");
+            Console.WriteLine("Pre Condition for test class + '{context.ToString()}'");
         }
 
         [TestInitialize]
         public static void TestInit()
         {
             Console.WriteLine("Pre Condition for test");
-        }*/
+        }
 
         private Calculator cal;
 
@@ -147,10 +147,8 @@ namespace HomeTask_MSTest
             var result = cal.Sub(arg1, arg2);
             Assert.AreEqual(expected, result);
         }
-
-   
       
-        /* [TestCleanup]
+         [TestCleanup]
          public static void TestClean()
          {
              Console.WriteLine("Post Condition for test");
@@ -160,6 +158,6 @@ namespace HomeTask_MSTest
          public static void CleanClass()
          {
              Console.WriteLine("Post Condition for test class");
-         }*/
+         }
     }
 }

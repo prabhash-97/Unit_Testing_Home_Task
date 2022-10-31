@@ -9,11 +9,11 @@ namespace HomeTask
     public class NUnitTests
     {
 
-        /*[TestFixtureSetUp]
+        [OneTimeSetUp]
         public static void ClassInit()
         {
             Console.WriteLine("Pre Condition for test class");
-        }*/
+        }
 
         [SetUp]
         public static void TestInit()
@@ -179,10 +179,10 @@ namespace HomeTask
             Console.WriteLine("Post Condition for test");
         }
 
-        /*[TestFixtureTearDown]
+        [OneTimeTearDown]
         public static void CleanClass()
         {
             Console.WriteLine("Post Condition for test class");
-        }*/
+        }
     }
 }
